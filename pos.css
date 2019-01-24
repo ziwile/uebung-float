@@ -14,7 +14,6 @@ h1{
 }
 
 section{
-	
 	border-bottom:  1px solid #000;
 }
 
@@ -23,18 +22,8 @@ section{
 	margin: 0 auto;
 }
 
-.row{
-	width:  100%;
-	padding: 1rem 0;
-}
-
 section:last-of-type{
 	border-bottom: none;
-}
-
-.col{
-	width: 33.333333%;
-	height: 200px;
 }
 
 .electric-purple{
