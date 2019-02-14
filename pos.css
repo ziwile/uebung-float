@@ -20,6 +20,7 @@ section{
 .wrapper{
 	max-width: 600px;
 	margin: 0 auto;
+
 }
 
 section:last-of-type{
@@ -28,12 +29,54 @@ section:last-of-type{
 
 .electric-purple{
 	background: #C200FB;
+	flex-grow: 1;
+
+
+
 }
 
 .raspberry{
 	background: #EC0868;
+	flex-grow: 1;
+
 }
 
 .ferrari-red{
-	background: #FC2F00
+	background: #FC2F00;
+	flex-grow: 1;
+
+
+}
+
+.green{
+	background: green;
+	flex-grow: 4;
+
+}
+
+.black{
+	background: black;
+	flex-grow: 1;
+	order: -1;
+}
+
+.col {
+	height: 200px;
+	width: 200px;
+	float: left;
+
+}
+
+.row{
+	background: yellow;
+}
+
+.clearfix{
+	clear: both;
+}
+
+.flex{
+	display: flex;
+	height: 200px;
+
 }
