@@ -29,6 +29,7 @@ section:last-of-type{
 
 .electric-purple{
 	background: #C200FB;
+	float: right;
 
 
 
@@ -36,21 +37,25 @@ section:last-of-type{
 
 .raspberry{
 	background: #EC0868;
+	float: left;
 
 }
 
 .ferrari-red{
 	background: #FC2F00;
+	float: left;
 
 }
 
 .green{
 	background: green;
+	float: left;
 
 }
 
 .black{
 	background: black;
+	float: right;
 
 }
 
@@ -58,8 +63,20 @@ section:last-of-type{
 	height: 200px;
 	width: 200px;
 
+
 }
 
 .row{
 	background: yellow;
+}
+
+.clearfix::after{
+	content: "huhu";
+	display: block;
+	width: 100%;
+	clear: both;
+}
+
+.cl{
+	clear: both;
 }
