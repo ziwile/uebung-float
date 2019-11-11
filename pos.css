@@ -29,7 +29,7 @@ section:last-of-type{
 
 .electric-purple{
 	background: #C200FB;
-	float: right;
+
 
 
 
@@ -37,7 +37,6 @@ section:last-of-type{
 
 .raspberry{
 	background: #EC0868;
-	float: left;
 
 }
 
@@ -49,13 +48,11 @@ section:last-of-type{
 
 .green{
 	background: green;
-	float: left;
 
 }
 
 .black{
 	background: black;
-	float: right;
 
 }
 
@@ -71,7 +68,7 @@ section:last-of-type{
 }
 
 .clearfix::after{
-	content: "huhu";
+	content: "";
 	display: block;
 	width: 100%;
 	clear: both;
