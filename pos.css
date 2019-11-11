@@ -1,79 +1,87 @@
-*{
-	box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-html, body{
-	height:  100%;
-	width:  100%;
-	font-family: Helvetica, Arial, sans-serif;
-	font-size: 100%;
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 100%;
 }
 
-h1{
-	margin: 1rem 0;
+h1 {
+  margin: 1rem 0;
 }
 
-section{
-	border-bottom:  1px solid #000;
+section {
+  border-bottom: 1px solid #000;
 }
 
-.wrapper{
-	max-width: 600px;
-	margin: 0 auto;
+.wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+section:last-of-type {
+  border-bottom: none;
+}
+
+.electric-purple {
+  background: #C200FB;
+  float: left;
+}
+
+.raspberry {
+  background: #EC0868;
+  float: left;
+}
+
+.ferrari-red {
+  background: #FC2F00;
+  float: left;
+}
+}
+
+.black {
+  background: black;
+}
+
+.col {
+  height: 200px;
+  width: 250px;
+}
+
+.row {
+  background: yellow;
+}
+
+.clearfix::after {
+  content: "huhu";
+  display: block;
+  width: 100%;
+  clear: both;
+}
+
+.clear {
+  clear: both;
+}
+
+.container {
+  background: skyblue;
 
 }
 
-section:last-of-type{
-	border-bottom: none;
-}
-
-.electric-purple{
-	background: #C200FB;
-
-
-
-
-}
-
-.raspberry{
-	background: #EC0868;
-
-}
-
-.ferrari-red{
-	background: #FC2F00;
+.green {
+  background: green;
+  height: 100px;
+  width: 100px;
 	float: left;
 
 }
 
-.green{
-	background: green;
-
-}
-
-.black{
-	background: black;
-
-}
-
-.col {
-	height: 200px;
-	width: 200px;
-
-
-}
-
-.row{
-	background: yellow;
-}
-
-.clearfix::after{
-	content: "";
-	display: block;
-	width: 100%;
-	clear: both;
-}
-
-.cl{
-	clear: both;
+.red {
+  background: red;
+  height: 100px;
+  width: 100px;
+	float: left;
 }
